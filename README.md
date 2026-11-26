@@ -4,7 +4,7 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.10%2B-FF6F00?logo=tensorflow)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.25%2B-FF4B4B?logo=streamlit)
-🚀 **Live Demo:** [Access the deployed application here](https://braincancerprediction-rihanabankole-academic-project.streamlit.app/)
+![**Live Demo:** [Access the deployed application here](https://braincancerprediction-rihanabankole-academic-project.streamlit.app/)]
 
 
 > **An end-to-end deep learning platform for brain tumor classification using Magnetic Resonance Imaging (MRI).** This project implements and evaluates convolutional neural network architectures using PyTorch and TensorFlow/Keras, with an interactive Streamlit application for model inference, performance evaluation, and visualization.
