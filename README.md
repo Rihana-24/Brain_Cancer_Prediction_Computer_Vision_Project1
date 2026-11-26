@@ -4,8 +4,8 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.10%2B-FF6F00?logo=tensorflow)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.25%2B-FF4B4B?logo=streamlit)
-![Accuracy](https://img.shields.io/badge/Test_Accuracy-95.5%25-brightgreen)
-![ROC-AUC](https://img.shields.io/badge/Macro_ROC--AUC-0.994-success)
+![Accuracy](https://img.shields.io/badge/Test_Accuracy-87.5%25-brightgreen)
+![ROC-AUC](https://img.shields.io/badge/Macro_ROC--AUC-0.7-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 > **An end-to-end deep learning platform for brain tumor classification using Magnetic Resonance Imaging (MRI).** This project implements and evaluates convolutional neural network architectures using PyTorch and TensorFlow/Keras, with an interactive Streamlit application for model inference, performance evaluation, and visualization.
