@@ -247,54 +247,7 @@ normalization_layer = tf.keras.layers.Rescaling(
     scale=1.0 / 127.5,
     offset=-1.0
 )
-```
 
----
-
-## 📈 Model Performance
-
-The classification system was evaluated on an independent test dataset containing 1,311 MRI images.
-
-### Overall Performance
-
-| Metric | Result |
-|---|---:|
-| Test Accuracy | **95.5%** |
-| Macro Precision | 95.5% |
-| Macro Recall | 95.3% |
-| Macro F1-Score | 95.4% |
-| Macro ROC-AUC (OVR) | **0.994** |
-
-### Classification Report
-
-| Class | Precision | Recall | Specificity | F1-Score |
-|---|---:|---:|---:|---:|
-| Glioma | 0.940 | 0.940 | 0.982 | 0.940 |
-| Meningioma | 0.943 | 0.912 | 0.981 | 0.927 |
-| No Tumor | 0.966 | 0.990 | 0.985 | 0.978 |
-| Pituitary Adenoma | 0.970 | 0.970 | 0.991 | 0.970 |
-| **Macro Average** | **0.955** | **0.953** | **0.985** | **0.954** |
-
-### Confusion Matrix
-
-Rows represent actual classes, while columns represent predicted classes.
-
-| Actual / Predicted | Glioma | Meningioma | No Tumor | Pituitary |
-|---|---:|---:|---:|---:|
-| Glioma | 282 | 11 | 4 | 3 |
-| Meningioma | 14 | 279 | 8 | 5 |
-| No Tumor | 1 | 2 | 401 | 1 |
-| Pituitary | 3 | 4 | 2 | 291 |
-
-### Performance Interpretation
-
-The results indicate strong classification performance across the four categories.
-
-The No Tumor class achieved a recall of 99.0%, indicating that 401 out of 405 normal MRI images were correctly classified.
-
-Meningioma presented the lowest recall (91.2%), suggesting that distinguishing this category from other tumor classes remains an important area for improvement.
-
----
 
 ## 📁 Repository Structure
 
