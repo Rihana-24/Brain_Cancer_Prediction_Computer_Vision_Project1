@@ -28,7 +28,7 @@
 - [Clinical Disclaimer](#-clinical-disclaimer)
 - [License](#-license)
 - [Acknowledgments](#-acknowledgments)
--[Access the deployed application here](https://braincancerprediction-rihanabankole-academic-project.streamlit.app/)
+- [Access the deployed application here](https://braincancerprediction-rihanabankole-academic-project.streamlit.app/)
 
 ---
 
